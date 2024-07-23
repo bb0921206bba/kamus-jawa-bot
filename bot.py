@@ -65,7 +65,7 @@ def handle_message(update, context):
 
 def main():
     # 使用你的機器人令牌初始化機器人
-    bot_token = "6999288835:AAE91xgE2Jz3vbb2wmt7YjyzbNCcaJSCvkI"
+    bot_token = "6999288835:AAH_Y4bHJ9FGE0Y5IMf9mqGxh7Vzblubc1E"
     bot = telegram.Bot(token=bot_token)
     updater = Updater(bot=bot, use_context=True)
     dispatcher = updater.dispatcher
